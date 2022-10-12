@@ -1,0 +1,44 @@
+.root{
+    background-color: yellow;
+    width:98.93vw;
+    height:90vh; 
+}
+.heading{
+    background-color:red;
+    width:98.93vw;
+    height:10vh;
+    margin:auto;
+    text-align: center;
+}
+.contents{
+    display:flex;
+    height:80vh;
+}
+.writing{
+    display:flex;
+    margin-left:2vw;
+    width:70vw;
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+
+}
+.image{
+    width:30vw;
+    background-color: blue;
+    
+}
+.myphoto{
+   display:flex;
+   justify-content:center; /* horizontally center */
+   align-items:center;    /* vertically center */
+   margin-left:5vw;
+   margin-top:20vh;
+   
+}
+.myphoto img{
+max-width:100%;
+max-height:100%;
+
+box-sizing: border-box;
+}
