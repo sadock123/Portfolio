@@ -11,6 +11,7 @@ const HomeSVG = () => {
 			loop: true,
 			autoplay: true,
 			animationData: require('../image/HomeSVG.json'),
+			
 		});
 
 		return () => {
