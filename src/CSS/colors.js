@@ -9,4 +9,5 @@ export const colors = {
     lightPurple: '#6623f0',
     pink: '#e2319e',
     white: '#faf8fc'
+    
 };
