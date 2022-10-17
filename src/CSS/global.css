@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
 html,
 body {
@@ -33,10 +39,6 @@ a {
 	border-radius: 20px;
 }
 
-* {
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
 
 .css-46bh2p-MuiCardContent-root:last-child {
   padding-bottom: 0 !important;
