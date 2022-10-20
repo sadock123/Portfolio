@@ -1,5 +1,4 @@
 import React from 'react'
-import './experience.css'
 import Image from '../image/CFL.png'
 import Image2 from '../image/tech_web.PNG'
 import Zoom from 'react-reveal/Zoom';
