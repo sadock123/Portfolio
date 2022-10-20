@@ -10,6 +10,7 @@ export default function ButtonAppBar() {
       <AppBar  position='sticky' color='primary' sx={{
                 backdropFilter:"blur(20px)",
                 backgroundColor: "#12004478",
+                display: { xs: 'none', md: 'flex' },
             }}>
       <Container maxWidth="lg">
       <Toolbar disableGutters>
