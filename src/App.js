@@ -12,10 +12,11 @@ import { ThemeProvider } from '@mui/material/styles';
 import { Box,CssBaseline,} from '@mui/material';
 import theme from './theme';
 import Navbar from './component/navbar.js'
+
 function App() {
   return (
+    
     <ThemeProvider theme={theme}>
-
     <CssBaseline/>
     <div  id='home'/>
     <Navbar/>
