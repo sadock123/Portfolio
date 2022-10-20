@@ -5,7 +5,7 @@ export const colors = {
     red: '#e43351',
     orange: '#f26e3f',
     brown: '#503230',
-    lightOrange: '#d48471',
+    or: '#FA7D09',
     lightPurple: '#6623f0',
     pink: '#e2319e',
     white: '#faf8fc'
