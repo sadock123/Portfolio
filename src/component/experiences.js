@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
-import Image from './CFL.png'
+import Image from '../image/CFL.png'
+import Image2 from '../image/tech_web.PNG'
 import Zoom from 'react-reveal/Zoom';
 import {Grid, Typography,Card, CardMedia, Button } from '@mui/material';
 import Chip from '@mui/material/Chip';
@@ -47,7 +48,8 @@ function Experiences() {
           </Typography>
           <br/>
           <br/>
-            <Button size="small" href=''>View Project</Button>
+            <Button size="small" href='https://cf-leaderboard.netlify.app/'>View Project</Button>
+            {"                            "}
             <Button variant="contained" href='https://github.com/sadock123/CodeForces-Leaderboard'>Source Code</Button>
           <br/>
           <br/>
@@ -65,8 +67,8 @@ function Experiences() {
             <CardMedia
               component="img"
               width={600} height={300}
-              image={Image}
-              alt="Codeforces LeaderBoard"
+              image={Image2}
+              alt="IITDh technical website"
               objectFit="cover" 
             /> 
           </Zoom>

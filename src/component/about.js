@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from './Sadock.jpeg'
+import Image from '../image/Sadock.jpeg'
 import { colors } from '../CSS/colors.js';
 import { Avatar, Box, Grid, Typography } from '@mui/material';
 function About() {
