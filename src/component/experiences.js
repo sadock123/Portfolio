@@ -2,7 +2,7 @@ import React from 'react'
 import './experience.css'
 import Image from './CFL.png'
 import Zoom from 'react-reveal/Zoom';
-import { Box,Grid, Typography,Card,CardContent, CardMedia, Button ,CardActionArea} from '@mui/material';
+import {Grid, Typography,Card, CardMedia, Button } from '@mui/material';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 
@@ -47,8 +47,8 @@ function Experiences() {
           </Typography>
           <br/>
           <br/>
-            <Button size="small" variant="containe">View Project</Button>
-            <Button variant="contained">Source Code</Button>
+            <Button size="small" href=''>View Project</Button>
+            <Button variant="contained" href='https://github.com/sadock123/CodeForces-Leaderboard'>Source Code</Button>
           <br/>
           <br/>
           
@@ -81,12 +81,12 @@ function Experiences() {
           </Stack>
           <br/>
           <Typography variant='p' textAlign='justify'>
-            Created a project to track down the overall standing of IITDh students in the CodeForces Contest.
+           Created the Official IITDh Technical Website. Consist of all major Technical Events and Organizations of IITDh.
           </Typography>
           <br/>
           <br/>
-            <Button size="small" variant="containe">View Project</Button>
-            <Button variant="contained">Source Code</Button>
+            <Button size="small" variant="disabled">View Project</Button>
+            <Button variant="contained" href='https://github.com/sadock123/Technical-website' >Source Code</Button>
           <br/>
           <br/>
         </Card> 

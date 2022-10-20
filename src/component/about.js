@@ -4,7 +4,7 @@ import { colors } from '../CSS/colors.js';
 import { Avatar, Box, Grid, Typography } from '@mui/material';
 function About() {
   return (
-    <Box
+    <Box 
     sx={{
         width: '100%',
         padding: '2rem',

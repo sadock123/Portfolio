@@ -6,7 +6,7 @@ import {colors} from '../CSS/colors.js';
 
 function Techskill() {
   return (
-    <div>
+    <div id='tech'>
         <Typography variant="h4" align='center'>
              My  <span style={{ color: colors.red, fontWeight: 600 }}>Professional Skillset</span>
         </Typography>

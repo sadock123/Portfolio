@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Main from './component/main.js';
 import About from './component/about.js';
@@ -12,25 +11,33 @@ import './CSS/Home.css'
 import { ThemeProvider } from '@mui/material/styles';
 import { Box,CssBaseline,} from '@mui/material';
 import theme from './theme';
+import Navbar from './component/navbar.js'
 function App() {
   return (
     <ThemeProvider theme={theme}>
 
     <CssBaseline/>
+    <div  id='home'/>
+    <Navbar/>
 <Box  sx={{
         width: '100%',
         padding: '2rem',
         backgroundColor: '#310A5D',
         backdropFilter:"blur(20px)",
-        borderRadius: '1rem',   
+
     }}>
-  <br/>
-  <br/>
- <br/>
- <br/>
+
   <Main />
   <br/>
   <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  
+  <div id='about'/>
   <br/>
   <br/>
   <About />
@@ -42,8 +49,11 @@ function App() {
   <br/>
   <br/>
   <br/>
+  <div id='skill'/>
   <br/>
   <br/>
+  <br/>
+
   
   <Techskill/>
   <br/>
@@ -55,11 +65,20 @@ function App() {
   <br/>
   <br/>
   <br/>
+  <div id='project'/>
+  <br/>
   <br/>
   <br/>
   <Experiences/>
 <br/>
-<br/>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <div id='contact'/>
   <br/>
   <br/>
   <br/>
@@ -69,6 +88,7 @@ function App() {
   <br/>
   <br/>
   <br/>
+
   <Footer/>
   <br/>
     </ThemeProvider>

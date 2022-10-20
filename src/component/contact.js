@@ -3,7 +3,7 @@ import { Typography, Grid, IconButton} from '@mui/material';
 import { FiInstagram, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 function Contact() {
   return (
-    <>
+    <div id='contact'>
     <Typography  variant='h4' align='center' >
       <span style={{ color: '#FF004D', fontWeight: 600 }}>Contact  </span>Details
       </Typography>
@@ -48,7 +48,7 @@ function Contact() {
     
     </Grid>
     </Grid>
-    </>
+    </div>
   )
 }
 
